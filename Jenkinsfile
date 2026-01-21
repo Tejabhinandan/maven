@@ -2,7 +2,7 @@ pipeline {
     agent { label 'git_pipeline' }
 
     environment {
-        GIT_REPO = 'https://github.com/Tejabhinandan/maven.git'
+        GIT_REPO = 'git@github.com:Tejabhinandan/maven.git'
         BRANCH   = 'main'
     }
 
@@ -55,3 +55,4 @@ pipeline {
         }
     }
 }
+
